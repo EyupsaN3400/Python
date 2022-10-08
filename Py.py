@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 
 
@@ -13,7 +13,6 @@ time.sleep(3)
 
 driver.maximize_window()
 driver.save_screenshot("gihthub.com-homepage.png")
-
 
 url = "http://github.com/Dyrnade"
 driver.get(url)
