@@ -1,5 +1,6 @@
-email = 'Eyupk@gmail.com'
+email = 'Eyupkilic1901@gmail.com'
 password = 'eyupk'
+
 
 entry_email = input('emaili girin: ')
 entry_password = input('şifrenizi girin: ')
